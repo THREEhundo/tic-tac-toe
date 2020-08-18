@@ -1,5 +1,8 @@
 # Tic-Tac-Toe
 
+[Game](https://threehundo.github.io/tic-tac-toe/)
+![Game Preview](https://github.com/THREEhundo/tic-tac-toe/blob/master/preview.png)
+
 # Functionality
 This game has two modes, player vs. player, and player vs. AI. Games can be played with a score count. Scoreboard can be wiped.
 
