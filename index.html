@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container" id="container1">
+    <div class="headingDiv">
+      <h1 id="heading">Tic Tac Toe</h1>
+    </div>
+    <div class="scale-up-ver-bottom"></div>
+    <div class="menu">
+      <form>
+        <div class="input-container">
+          <input class="image" id="pvp" type="image" name="one" alt="player1" src="css/imgs/ninja.svg">
+          <input class="image" id="pvc" type="image" name="two" alt="player2" src="css/imgs/computer.svg">
+        </div>
+        <div id="dual-textbox-wrapper">
+          <div id="p1nameContainer">
+            <label id="p1-label" for="p1name">Player 1:
+            </label>
+            <input id="p1name" type="text" name="p1name" required>
+          </div>
+          <div id="p2nameContainer">
+            <label id="p2-label" for="p2name">Player 2:
+            </label>
+            <input id="p2name" type="text" name="p2name" required>
+          </div>
+        </div>
+        <div class="input-container">
+          <button type="button" id="play-button"></button>
+        </div>
+      </div>
+      <div class="tab scale-up-bottom">
+        <p id="play">Play!</p>
+      </div>
+      </form>
+  </div>
+
+  <div id="scoreboard">
+    <p><img class="scoreboardImg" src="css/imgs/ninja.svg">
+      <span id="player1name">Player</span> <span id="player1score">0</span> : 
+      <span id="player2score">0</span> <span id="player2name">Computer</span><img id="player2-img" class="scoreboardImg" src="css/imgs/computer.svg"></p>
+    <button id='resetBtn' type="button" name="reset">Reset</button>
+  </div>
+
+  <div class="board">
+    <div class="square" data-id="0"> </div>
+    <div class="square" data-id="1"> </div>
+    <div class="square" data-id="2"> </div>
+    <div class="square" data-id="3"> </div>
+    <div class="square" data-id="4"> </div>
+    <div class="square" data-id="5"> </div>
+    <div class="square" data-id="6"> </div>
+    <div class="square" data-id="7"> </div>
+    <div class="square" data-id="8"> </div>
+  </div>
+
+  <div class="container" id="container2">
+    <div class="modal">
+      <button id="buttonX" type="button">X</button>
+      <div class="win show">
+        <p><span id="winner">Player</span> won!</p>
+        <p>🔥🔥🔥</p>
+        <p>Wins: <span id="score">0</span></p>
+      </div>
+      <div class="tie hide">
+        <p>Tie</p>
+        <p>🤷‍♂️🤷‍♂️🤷‍♂️</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
