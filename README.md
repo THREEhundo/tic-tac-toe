@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 
-[Game](https://threehundo.github.io/tic-tac-toe/)
+[Play!](https://threehundo.github.io/tic-tac-toe/)
 ![Game Preview](https://github.com/THREEhundo/tic-tac-toe/blob/master/preview.png)
 
 # Functionality
